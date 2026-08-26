@@ -487,3 +487,4 @@ Supongamos que la primera llamada a `f()` se ejecuta durante 10 milisegundos, pe
 
 > **Consejo**  
 > A diferencia de `time.Timer`, puedes detener un *ticker* de manera concurrente mientras lees de su canal.
+

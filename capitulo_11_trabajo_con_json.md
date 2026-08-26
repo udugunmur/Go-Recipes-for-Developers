@@ -778,3 +778,4 @@ func handler(w http.ResponseWriter, r *http.Request) {
 ```
 
 Proporciona siempre un límite superior para las asignaciones de recursos según los datos que leas de una entrada de terceros. Por ejemplo, si estás leyendo un flujo JSON con prefijo de longitud donde cada objeto JSON tiene como prefijo su longitud, no asignes un `[]byte` para almacenar el siguiente objeto sin verificar. Rechaza la entrada si la longitud es demasiado grande.
+

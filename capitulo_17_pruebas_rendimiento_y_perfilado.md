@@ -227,3 +227,4 @@ Comandos interactivos comunes dentro de `pprof`:
 - `top`: Muestra las funciones que más CPU o memoria consumen.
 - `list <NombreDeFuncion>`: Muestra el código fuente anotado línea por línea.
 - `web`: Genera y abre un gráfico visual de llamadas en el navegador web (requiere Graphviz).
+

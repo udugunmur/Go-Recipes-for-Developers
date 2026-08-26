@@ -774,3 +774,4 @@ La función generadora `StreamResults` inicia una clausura de *goroutine* que ca
 Ahora le corresponde al llamador comunicarse con la *goroutine*. El llamador recopila los resultados del canal hasta que se cierra el canal y los procesa uno por uno. El llamador también comprueba el campo de error en el mensaje recibido para manejar cualquier error detectado por la *goroutine*.
 
 Este esquema utiliza un contexto cancelable. Cuando se cancela el contexto, la *goroutine* envía otro mensaje a través del canal antes de cerrarlo, por lo que el llamador debe vaciar (*drain*) el canal si se produce la cancelación del contexto.
+
